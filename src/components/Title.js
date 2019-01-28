@@ -19,7 +19,6 @@ class Title extends Component {
   }
 
   componentWillMount() {
-    console.log("Component will mount");
     clearInterval(this.titleInterval);
     clearTimeout();
   }

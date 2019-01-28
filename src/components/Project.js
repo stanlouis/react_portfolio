@@ -15,7 +15,12 @@ const Project = props => {
             </div>
             <div className="card-text">
               <p className="font-weight-light">{description}</p>
-              <a className="search-link" href={link}>
+              <a
+                className="search-link"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <span>
                   <i className="fas fa-external-link-alt" />
                 </span>

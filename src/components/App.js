@@ -3,6 +3,7 @@ import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import profile from "../assets/stanProfile.jpg";
 import Title from "./Title";
+import Jokes from "./Jokes";
 
 class App extends Component {
   state = {
@@ -15,7 +16,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
         <Title />
@@ -50,6 +51,8 @@ class App extends Component {
         <Projects />
         <hr />
         <SocialProfiles />
+        <hr />
+        <Jokes />
       </div>
     );
   }
