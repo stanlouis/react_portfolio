@@ -22,8 +22,7 @@ const PROJECTS = [
     id: 3,
     title: "Zero Hour",
     description:
-      "\n" +
-      "A countdown that take a future date/time input from a user and output a countdown ",
+      "A countdown that take a future date/time and output a countdown ",
     image: project3,
     link: "https://stanlouis.github.io/date-countdown/"
   }

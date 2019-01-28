@@ -5,9 +5,9 @@ import Project from "./Project";
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <h2>Highlighted Projects</h2>
-        <div>
+      <div className="container">
+        <h2 className="my-5">Highlighted Projects</h2>
+        <div className="row projects">
           {PROJECTS.map(PROJECT => {
             return <Project key={PROJECT.id} project={PROJECT} />;
           })}
