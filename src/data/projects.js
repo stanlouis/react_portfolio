@@ -8,19 +8,24 @@ const PROJECTS = [
     title: "TruckTrack",
     description:
       "TruckTrack helps connect food truck owners and their customers.",
-    image: project1
+    image: project1,
+    link: "https://truckstrack.herokuapp.com/"
   },
   {
     id: 2,
     title: "Indecision",
     description: "A Task ap that randomly select A task from a list",
-    image: project2
+    image: project2,
+    link: "https://stanlouis.github.io/indecision-app/"
   },
   {
     id: 3,
     title: "Zero Hour",
-    description: "A Countdown Timer.",
-    image: project3
+    description:
+      "\n" +
+      "A countdown that take a future date/time input from a user and output a countdown ",
+    image: project3,
+    link: "https://stanlouis.github.io/date-countdown/"
   }
 ];
 

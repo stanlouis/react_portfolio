@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PROJECTS from "./data/projects";
+import Project from "./Project";
 
 class Projects extends Component {
   render() {
@@ -8,7 +9,7 @@ class Projects extends Component {
         <h2>Highlighted Projects</h2>
         <div>
           {PROJECTS.map(PROJECT => {
-            return <div key={PROJECT.id}>{PROJECT.title}</div>;
+            return <Project key={PROJECT.id} project={PROJECT} />;
           })}
         </div>
       </div>
