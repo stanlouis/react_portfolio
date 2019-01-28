@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import profile from "./assets/stanProfile.jpg";
+import Title from "./Title";
 
 class App extends Component {
   state = {
@@ -17,7 +18,7 @@ class App extends Component {
       <div>
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
-        <p>My name is Stanley. I'm a software engineer.</p>
+        {this.state.displayBio ? <Title /> : null}
         <p>
           My favorite language is JavaScript and my favorite front-end framework
           is React.
@@ -28,11 +29,21 @@ class App extends Component {
           <div>
             <p>I live in Maryland, and code every day.</p>
             <p>Besides coding, I also love hiking and diving</p>
-            <button onClick={this.toggleDisplayBio}>Show less</button>
+            <button
+              className="btn btn-outline-dark"
+              onClick={this.toggleDisplayBio}
+            >
+              Show less
+            </button>
           </div>
         ) : (
           <div>
-            <button onClick={this.toggleDisplayBio}>Read more</button>
+            <button
+              className="btn btn-outline-dark"
+              onClick={this.toggleDisplayBio}
+            >
+              Read more
+            </button>
           </div>
         )}
         <hr />

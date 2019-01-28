@@ -14,7 +14,7 @@ const Project = props => {
               <h3>{title}</h3>
             </div>
             <div className="card-text">
-              <p>{description}</p>
+              <p className="font-weight-light">{description}</p>
               <a className="search-link" href={link}>
                 <span>
                   <i className="fas fa-external-link-alt" />

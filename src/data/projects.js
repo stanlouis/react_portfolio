@@ -14,7 +14,7 @@ const PROJECTS = [
   {
     id: 2,
     title: "Indecision",
-    description: "A Task ap that randomly select A task from a list",
+    description: "A Task app that randomly select A task from a list",
     image: project2,
     link: "https://stanlouis.github.io/indecision-app/"
   },
