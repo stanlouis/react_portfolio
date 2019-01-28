@@ -11,7 +11,7 @@ const Project = props => {
           </div>
           <div className="card-body">
             <div className="card-title">
-              <h3>{title}</h3>
+              <h4>{title}</h4>
             </div>
             <div className="card-text">
               <p className="font-weight-light">{description}</p>

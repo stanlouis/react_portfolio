@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
-import profile from "./assets/stanProfile.jpg";
+import profile from "../assets/stanProfile.jpg";
 import Title from "./Title";
 
 class App extends Component {
@@ -18,7 +18,7 @@ class App extends Component {
       <div>
         <img src={profile} alt="profile" className="profile" />
         <h1>Hello!</h1>
-        {this.state.displayBio ? <Title /> : null}
+        <Title />
         <p>
           My favorite language is JavaScript and my favorite front-end framework
           is React.
