@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = ({ children }) => (
   <React.Fragment>
-    <nav className="navbar navbar-expand-lg navbar-light  bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark mb-5 bg-dark">
       <Link className="navbar-brand" to="/">
         Home
       </Link>
