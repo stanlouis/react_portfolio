@@ -3,7 +3,6 @@ import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import profile from "../assets/stanProfile.jpg";
 import Title from "./Title";
-import Jokes from "./Jokes";
 
 class App extends Component {
   state = {
@@ -51,8 +50,6 @@ class App extends Component {
         <Projects />
         <hr />
         <SocialProfiles />
-        <hr />
-        <Jokes />
       </div>
     );
   }
