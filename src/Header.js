@@ -18,6 +18,11 @@ const Header = ({ children }) => (
             Jokes
           </Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/music-master">
+            Music Master
+          </Link>
+        </li>
       </ul>
     </nav>
     {children}

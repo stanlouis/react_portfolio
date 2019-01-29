@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./index.scss";
 import App from "./components/App";
 import Jokes from "./components/Jokes";
+import MusicMaster from "./projects/music-master";
 import Header from "./Header";
 
 ReactDOM.render(
@@ -24,6 +25,14 @@ ReactDOM.render(
           render={() => (
             <Header>
               <Jokes />
+            </Header>
+          )}
+        />
+        <Route
+          path="/music-master"
+          render={() => (
+            <Header>
+              <MusicMaster />
             </Header>
           )}
         />
