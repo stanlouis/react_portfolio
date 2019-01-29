@@ -36,21 +36,21 @@ class Jokes extends Component {
   render() {
     const { joke, tell } = this.state;
     return (
-      <div>
-        <h2>Highlighted Joke</h2>
+      <React.Fragment>
+        <h2 className="mt-3">Highlighted Joke</h2>
         <Joke joke={joke} tell={tell} />
 
         <h3 className="mt-3">Want ten new jokes?</h3>
         <button onClick={this.fetchJokes} className="btn-primary">
           Click me!
         </button>
-        <div className="row">
+        <div className="row pt-3">
           {this.state.jokes.map(joke => {
             const { id } = joke;
             return <Joke key={id} joke={joke} />;
           })}
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

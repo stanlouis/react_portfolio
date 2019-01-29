@@ -10,15 +10,14 @@
 }
 
 body {
-  font-family: 'RobotoCondensed';
+  font-family: 'RobotoCondensed', sans-serif;
   src: url(assets/economica-bold.ttf);
   text-align: center;
   font-size: 20px;
-  padding: 2.5%;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'EconomicaBold';
+  font-family: 'EconomicaBold', sans-serif;
 }
 
 .profile {
