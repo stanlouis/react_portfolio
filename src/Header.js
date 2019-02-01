@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ({ children }) => (
   <React.Fragment>
@@ -21,6 +21,11 @@ const Header = ({ children }) => (
         <li className="nav-item">
           <Link className="nav-link" to="/music-master">
             Music Master
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/evens-or-odds">
+            Evens or Odds
           </Link>
         </li>
       </ul>

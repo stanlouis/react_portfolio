@@ -6,6 +6,7 @@ import App from "./components/App";
 import Jokes from "./components/Jokes";
 import MusicMaster from "./projects/music-master";
 import Header from "./Header";
+import EvensOrOdds from "./projects/evens-or-odds";
 
 ReactDOM.render(
   <React.Fragment>
@@ -33,6 +34,14 @@ ReactDOM.render(
           render={() => (
             <Header>
               <MusicMaster />
+            </Header>
+          )}
+        />
+        <Route
+          path="/evens-or-odds"
+          render={() => (
+            <Header>
+              <EvensOrOdds />
             </Header>
           )}
         />
